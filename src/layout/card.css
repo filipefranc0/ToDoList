@@ -1,0 +1,61 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #595a5c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 48%; /* Para os botões "Editar" e "Excluir" */
+  }
+  
+  button:hover {
+    background-color: #504b4b;
+  }
+  
+  .details-link {
+    text-decoration: none;
+    background-color: #595a5c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .details-link:hover {
+    background-color: #504b4b;
+  }
+  

@@ -1,0 +1,25 @@
+/* app.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; /* Cinza escuro */
+    padding: 8px; /* Reduza o padding para tornar o cabeçalho mais fino */
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0; /* Remova o padding padrão da lista */
+  }
+  
+  .item {
+    margin-right: 1em;
+  }
+  
+  .item a {
+    color: #FFF; /* Texto branco */
+    text-decoration: none;
+  }
+  

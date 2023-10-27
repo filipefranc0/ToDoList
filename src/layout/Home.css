@@ -1,0 +1,86 @@
+/* Estilos gerais do container da lista de tarefas */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinhe no topo do body */
+    height: 100vh;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos da lista de tarefas */
+  .task-list {
+    list-style: none; /* Lista numerada */
+    padding: 0;
+    width: 100%; /* Limita a largura da lista */
+    max-width: 400px; /* Define a largura máxima da lista */
+  }
+  
+  /* Estilos dos cartões de tarefas */
+  .task-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    width: 100%; /* Limita a largura do cartão */
+  }
+  
+  /* Estilos das li's de tarefas e itens */
+  .task-card li {
+    margin: 5px 0;
+  }
+  
+  /* Estilos do botão de exclusão */
+  .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  /* Estilos do botão de editar */
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos do campo de entrada para itens */
+  .input-field {
+    width: 50%; /* Define a largura máxima para os inputs */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilos do botão de adicionar tarefa */
+  .add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos do botão de exclusão */
+  .delete-button {
+    background-color: #7d7a7a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
